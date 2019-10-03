@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <title>Project 01 - Brandon Kissam - CS 5700</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  </head>
+  <body>
+    <header></header>
+    <main class="flex">
+      <aside>
+        <div>
+          <label for="machine-input">Input Machine(s)</label>
+          <input id="machine-input" type="file" accept=".fa" multiple />
+        </div>
+        <div>
+          <label for="string-input">Input String file</label>
+          <input id="string-input" type="file" />
+        </div>
+        <div>
+          <label for="download-content">Download when done</label>
+          <input id="download-content" type="checkbox" checked />
+        </div>
+      </aside>
+      <section id="machine-output" class="output-list">
+        <div class="machine-item">
+          <span>Basename</span>
+          <span>Validity</span>
+          <span>States</span>
+          <span>Count</span>
+          <span>Reason</span>
+        </div>
+        <div id="machine-item-list">
+          
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="scripts/parser.js"></script>
+  </body>
+</html>

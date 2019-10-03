@@ -1,0 +1,25 @@
+.flex {
+  display: flex;
+}
+
+.output-list {
+  flex-grow: 2;
+}
+
+.machine-item {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 10% 10% 10% auto;
+}
+
+.machine-item span:first-child {
+  width: 35%;
+}
+
+.machine-item span:nth-child(2) {
+  width: 15%;
+}
+
+.machine-item:nth-child(even) {
+  background-color: #ccf;
+}
